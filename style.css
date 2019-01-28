@@ -1,6 +1,9 @@
 body{
     background-image: url('images/bg.png');
 }
+@media screen and (max-width: 479px) {
+/* just the logo  */
+}
 .container {
     display: flex;
     padding: 10px;
