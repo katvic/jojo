@@ -1,45 +1,64 @@
-body{
-    background-image: url('images/bg.png');
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+body { background: #8AD1FF; 
+background-image: url(img/bg.png)
 }
-@media screen and (max-width: 479px) {
-/* just the logo  */
+/* optional Container STYLES */
+.chart { margin: 5px; align: center;}
+.Treant > .node { padding: 3px; }
+.Treant > .node img { width: 100%; height: 100%; }
+
+.Treant .collapse-switch { width: 100%; height: 100%; border: none; }
+.Treant .node.collapsed { background-color: none; }
+.Treant .node.collapsed .collapse-switch { background: none; }
+/* #bloodline {
+    display: block;
 }
-.container {
-    display: flex;
-    padding: 10px;
-    border: none;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-}
-.logo {
-    transition: height 0.5s ease-in-out;
-}
-.minor {
-    margin: 5px;
-    transition: height 0.5s ease-in-out;
-}
-.minor img{
-    width: 100px;
-}
-.link {
-    margin: 5px;
-    transition: height 0.5s ease-in-out;
-}
-.link img{
-    width: 50px;
-}
-.nextgen {
-    margin: 5px;
-    transition: height 0.5s ease-in-out;
-}
-.nextgen img{
-    width: 40px;
-}
+#itwasme-dio {
+    display: none;
+} */
 .jojo {
-    margin: 5px;
-    transition: height 0.5s ease-in-out;
+    font-size: 30px;
+    width: 350px;
+    font-family: 'Cinzel', serif;
 }
-.jojo img {
+
+.jojo .node-name { padding: 2px; color: #fff; text-align: center; }
+.jojo .node-desc { padding: 2px; color: #999; }
+/* .jojo:hover img { width: 350px;} */
+.minor {
+    font-size: 40px;
     width: 200px;
+    font-family: 'Tangerine', cursive;
 }
+.minor .node-name { padding: 2px; color: #acacac; text-align: center; }
+.logo {
+    width: 700px;
+}
+.dio{
+    width: 300px;
+}
+.dio:hover img { width: 350px;}
+@media screen and (max-width: 450px) {
+    .jojo{ width: 150px;}
+    .logo{width: 400px;}
+    .minor{width: 100px;}
+}
+/* 
+@media screen and (max-width: 450px) {
+    #itwasme-dio {
+        display: block;
+    }
+    #bloodline{
+        display: none;
+    .logo {
+    width: 400px;
+}
+    }
+} */
