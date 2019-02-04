@@ -17,7 +17,7 @@
             }
         },
         nodeStructure: {
-            image: "img/logo.png",
+            image: "img/jojologo.png",
             collapsed: true,
             HTMLclass: "logo",
             children: [ {
