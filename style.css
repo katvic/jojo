@@ -17,12 +17,12 @@ background-image: url(img/bg.png)
 .Treant .collapse-switch { width: 100%; height: 100%; border: none; }
 .Treant .node.collapsed { background-color: none; }
 .Treant .node.collapsed .collapse-switch { background: none; }
-/* #bloodline {
+#bloodline {
     display: block;
 }
 #itwasme-dio {
     display: none;
-} */
+}
 .jojo {
     font-size: 30px;
     width: 350px;
@@ -42,23 +42,25 @@ background-image: url(img/bg.png)
     width: 700px;
 }
 .dio{
-    width: 300px;
+    width: 280px;
 }
 .dio:hover img { width: 350px;}
-@media screen and (max-width: 450px) {
+/* if dio isn't working */
+/* @media screen and (max-width: 450px) {
     .jojo{ width: 150px;}
     .logo{width: 400px;}
     .minor{width: 100px;}
-}
-/* 
+} */
+/* if dio did that */
 @media screen and (max-width: 450px) {
     #itwasme-dio {
         display: block;
+        align-content: center;
     }
     #bloodline{
-        display: none;
+        display: none;}
     .logo {
-    width: 400px;
+    width: 350px;
 }
     }
-} */
+}

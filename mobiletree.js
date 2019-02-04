@@ -1,5 +1,5 @@
 
-    var chart_config = {
+    var mobile_chart_config = {
         chart: {
             container: "#itwasme-dio",
             rootOrientation: "NORTH",

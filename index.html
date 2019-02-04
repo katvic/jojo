@@ -13,8 +13,8 @@
 
 </head>
 <body>
+    <div class="chart" id="itwasme-dio"></div>
     <div class="chart" id="bloodline"></div>
-    <!-- <div class="chart" id="itwasme-dio"></div> -->
     <script src="vendor/raphael.js"></script>
     <script src="Treant.js"></script>
     
@@ -22,8 +22,11 @@
     <script src="vendor/jquery.easing.js"></script>
     
     
+    <script src="mobiletree.js"></script>
     <script src="tree.js"></script>
-    <!-- <script src="mobiletree.js"></script> -->
+    <script> 
+        tree = new Treant( mobile_chart_config );
+    </script>
     <script> 
         tree = new Treant( chart_config );
     </script>
